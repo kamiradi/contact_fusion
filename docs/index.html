@@ -289,7 +289,7 @@ Our results show that SPSMap produces more accurate and geometrically consistent
                     <div class="publication-links">
                          <!-- TODO: Update with your arXiv paper ID -->
                       <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        <a href=" https://arxiv.org/abs/2503.16592" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
@@ -298,16 +298,6 @@ Our results show that SPSMap produces more accurate and geometrically consistent
                       </a>
                     </span>
 
-                    <!-- TODO: Add your supplementary material PDF or remove this section -->
-                    <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span>
 
                   <!-- TODO: Replace with your GitHub repository URL -->
                   <span class="link-block">
@@ -316,13 +306,13 @@ Our results show that SPSMap produces more accurate and geometrically consistent
                     <span class="icon">
                       <i class="fab fa-github"></i>
                     </span>
-                    <span>Code</span>
+                    <span>Code(coming soon)</span>
                   </a>
                 </span>
 
                 <!-- TODO: Update with your arXiv paper ID -->
                 <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  <a href="https://arxiv.org/abs/2503.16592" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                     <i class="ai ai-arxiv"></i>
@@ -366,7 +356,14 @@ Our results show that SPSMap produces more accurate and geometrically consistent
         <div class="content has-text-justified">
           <!-- TODO: Replace with your paper abstract -->
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+             Robotic assembly tasks such as peg-in-hole insertion require precise geometric reasoning, yet sensor noise in real-world systems often exceeds the tight tolerances required for successful insertion.
+Vision-based pose estimation alone can therefore lead to misalignment and failure.
+In this work, we propose \textit{ContactFusion}, a probabilistic mapping framework that fuses depth sensing and force–torque measurements to estimate the geometry of insertion targets.
+Our method builds a Stochastic Poisson Surface Map (SPSMap), an uncertainty-aware implicit surface representation constructed using Stochastic Poisson Surface Reconstruction (SPSR).
+To incorporate contact information, we introduce a contact location estimator that converts force–torque measurements into spatial hypotheses over candidate contact locations on the robot end-effector.
+These hypotheses are fused with depth observations within a sequential reconstruction framework, enabling the map to be refined through both visual and contact interactions.
+We evaluate ContactFusion in simulation and on a real robotic system in a peg-in-hole setting.
+Our results show that SPSMap produces more accurate and geometrically consistent reconstructions, improving reconstruction F-score by up to 30--35\%, while providing uncertainty estimates that enable active reconstruction strategies.
           </p>
         </div>
       </div>
