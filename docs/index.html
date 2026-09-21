@@ -6,9 +6,19 @@
   
   <!-- Primary Meta Tags -->
   <!-- TODO: Replace with your paper title and author names -->
-  <meta name="title" content="PAPER_TITLE - AUTHOR_NAMES">
+  <meta name="title" content="ContactFusion: Stochastic Poisson Surface Maps
+      from Visual and Contact Sensing - Aditya Kamireddypalli, Joao Moura,
+      Russell Buchanan, Matias Mattamala, Sethu Vijayakumar, Subramanian
+      Ramamoorthy">
   <!-- TODO: Write a compelling 150-160 character description of your research -->
-  <meta name="description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
+  <meta name="description" content="Robotic assembly tasks such as peg-in-hole insertion require precise geometric reasoning, yet sensor noise in real-world systems often exceeds the tight tolerances required for successful insertion.
+Vision-based pose estimation alone can therefore lead to misalignment and failure.
+In this work, we propose \textit{ContactFusion}, a probabilistic mapping framework that fuses depth sensing and force–torque measurements to estimate the geometry of insertion targets.
+Our method builds a Stochastic Poisson Surface Map (SPSMap), an uncertainty-aware implicit surface representation constructed using Stochastic Poisson Surface Reconstruction (SPSR).
+To incorporate contact information, we introduce a contact location estimator that converts force–torque measurements into spatial hypotheses over candidate contact locations on the robot end-effector.
+These hypotheses are fused with depth observations within a sequential reconstruction framework, enabling the map to be refined through both visual and contact interactions.
+We evaluate ContactFusion in simulation and on a real robotic system in a peg-in-hole setting.
+Our results show that SPSMap produces more accurate and geometrically consistent reconstructions, improving reconstruction F-score by up to 30--35\%, while providing uncertainty estimates that enable active reconstruction strategies.">
   <!-- TODO: Add 5-10 relevant keywords for your research area -->
   <meta name="keywords" content="KEYWORD1, KEYWORD2, KEYWORD3, machine learning, computer vision, AI">
   <!-- TODO: List all authors -->
